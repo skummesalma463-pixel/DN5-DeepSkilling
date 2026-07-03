@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿INotification email = new SmsService();
+
+NotificationManager manager = new NotificationManager(email);
+
+manager.Notify("Welcome to Cognizant!");
