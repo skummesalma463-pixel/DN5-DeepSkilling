@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Human human = new Human();
+
+human.Work();
+human.Eat();
+
+Console.WriteLine();
+
+Robot robot = new Robot();
+
+robot.Work();
