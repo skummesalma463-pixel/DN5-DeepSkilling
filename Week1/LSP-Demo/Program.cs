@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Sparrow sparrow = new Sparrow();
+
+sparrow.Eat();
+sparrow.Fly();
+sparrow.Chirp();
+
+Console.WriteLine();
+
+Penguin penguin = new Penguin();
+
+penguin.Eat();
+penguin.Swim();
