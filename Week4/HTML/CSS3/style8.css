@@ -1,0 +1,17 @@
+.box{
+
+position:relative;
+
+left:100px;
+
+top:40px;
+
+background:red;
+
+color:white;
+
+padding:30px;
+
+width:200px;
+
+}
